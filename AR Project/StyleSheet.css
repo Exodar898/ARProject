@@ -1,0 +1,94 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin:1vw;
+}
+
+li {
+	list-style: none;
+	border-style: solid;
+	margin: auto;
+    width: 50%;
+    padding:.2vw;
+    border-radius:5px;
+    font-size:1.4vw;
+}
+
+input {
+	margin-bottom: 0vw 5vh;
+	width: 6vw;
+}
+
+table {
+	margin:auto;
+	width:98%;
+}
+
+table, th, td{
+	border-bottom:solid;
+	overflow:hidden;
+}
+
+td, th {
+	max-width: 6.2vw;
+}
+
+body {
+	background-color: #a8d3f0;
+	font-size: 1.1vw;
+	font-family: 'Work Sans', sans-serif;
+ 	font-weight: 300;
+} 
+
+td {
+	padding: 0px .7vw;
+}
+
+.hide1 {
+	visibility:hidden;
+}
+
+.hide2 {
+	visibility:hidden;
+}
+
+input, button {
+    font-family: 'Work Sans', sans-serif;
+    background-color:white;
+    border:none;
+    padding:.35vw;
+    font-weight: bold;
+    text-align:center;
+    border:solid;
+    border-width: 1px;
+    font-size: .8vw;
+    border-radius:5px;
+}
+
+input[type=submit]:hover,input[type=button]:hover, button:hover { 
+  background-color: #b7e3e4;
+}
+
+#instructions {
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 20px;
+	float:none;
+	clear:none;	 
+}
+
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
